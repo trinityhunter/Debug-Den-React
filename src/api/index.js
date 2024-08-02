@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://debug-den-springboot.onrender.com/api"})
+const API = axios.create({ baseURL: "https://debug-den-springboot-production.up.railway.app/api"})
 
 API.interceptors.request.use((req) => {
     if(localStorage.getItem('Profile')){
