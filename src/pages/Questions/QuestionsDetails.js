@@ -99,7 +99,7 @@ const QuestionsDetails = () => {
   const dispatch = useDispatch();
   const User = useSelector((state) => state.currentUserReducer);
   const location = useLocation();
-  const url = "https://debug-den.netlify.app";
+  const url = "https://debug-den-react-springboot.netlify.app/";
 
   const handlePostAns = (e, answerLength, question) => {
     e.preventDefault();
